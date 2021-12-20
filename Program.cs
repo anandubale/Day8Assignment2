@@ -25,8 +25,17 @@ namespace RefractoredLineProblems
             {
                 Console.WriteLine("Both Lines are Equals"); 
             }
-           
 
+            else if (lenght1 > lenght2)
+            {
+                Console.WriteLine("Line1 Is greater than Line 2");
+
+            }
+            else if (lenght1 < lenght2)
+            {
+                Console.WriteLine("Line2 Is greater than Line 2");
+
+            }
 
 
 
