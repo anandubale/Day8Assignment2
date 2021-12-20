@@ -20,6 +20,12 @@ namespace RefractoredLineProblems
             Console.WriteLine("Length of line of given 4 coordinates is  " + lenght1);
             Console.WriteLine("Length of line of given 4 coordinates is  " + lenght2);
 
+            //uc2
+            if (lenght1 == lenght2) //------------------------------------->UC2
+            {
+                Console.WriteLine("Both Lines are Equals"); 
+            }
+           
 
 
 
